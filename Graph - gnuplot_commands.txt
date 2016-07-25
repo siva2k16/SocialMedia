@@ -1,0 +1,104 @@
+
+gnuplot> cd "d:"
+gnuplot> plot "Output_Exercise2_HYD_Traffic_Output.dat" title "Hyderabad Traffic" with lines xlabel = "Time Bucket" ylabel = "Comments Count"
+
+gnuplot> plot "Output_Exercise2_BLR_Traffic_Output.dat" title "Bangalore Traffic" with lines
+gnuplot> plot "Output_Exercise2_KLK_Traffic_Output.dat" title "Kolkatta Traffic" with lines
+
+cd "d:"
+set xlabel "Time Bucket"
+set ylabel "Count"
+plot "Output_Exercise2_HYD_Traffic_Output.dat" title "Hyderabad Traffic" with lines
+
+cd "d:"
+set xlabel "Time Bucket"
+set ylabel "Count"
+plot "Output_Exercise2_BLR_Traffic_Output.dat" title "Bangalore Traffic" with lines
+
+cd "d:"
+set xlabel "Time Bucket"
+set ylabel "Count"
+plot "Output_Exercise2_KLK_Traffic_Output.dat" title "Kolkatta Traffic" with lines
+
+cd "d:"
+set xlabel "Time Bucket"
+set ylabel "Comments Count"
+plot "Output_Exercise3_Flipkart_Output.dat" title "Flipkart reactions" with lines
+
+cd "d:"
+set xlabel "Time Bucket"
+set ylabel "Comments Count"
+plot "Output_Exercise3_Amazon_Output.dat" title "Amazon reactions" with lines
+
+cd "d:"
+set xlabel "Time Bucket"
+set ylabel "Comments Count"
+plot "Output_Exercise3_Snapdeal_Output.dat" title "Snapdeal reactions" with lines
+
+cd "d:"
+set xlabel "Time Bucket"
+set ylabel "Comments Count"
+plot "Output_Exercise3_Myntra_Output.dat" title "Myntra reactions" with lines
+
+
+cd "d:"
+set xlabel "Time Bucket"
+set ylabel "Aggregated Reactions Count"
+plot "Output_Exercise4_Traffic_Output.dat" title "Traffic reactions" with lines
+
+cd "d:"
+set xlabel "Time Bucket"
+set ylabel "Aggregated Reactions Count"
+plot "Output_Exercise4_Hospitals_Output.dat" title "Hospital reactions" with lines
+
+cd "d:"
+set xlabel "Time Bucket"
+set ylabel "Aggregated Reactions Count"
+plot "Output_Exercise4_Telecommunication_Output.dat" title "Telecommunication reactions" with lines
+
+cd "d:"
+set xlabel "Time Bucket"
+set ylabel "Aggregated Reactions Count"
+plot "Output_Exercise4_Ecommerce_Output.dat" title "Ecommerce reactions" with lines
+
+cd "d:"
+set xlabel "Time Bucket"
+set ylabel "Reactions Gain"
+plot "Output_Exercise5_Traffic_Output.dat" title "Traffic Reaction Gain" with lines
+
+cd "d:"
+set xlabel "Time Bucket"
+set ylabel "Reactions Gain"
+plot "Output_Exercise5_Ecommerce_Output.dat" title "Ecommerce Reaction Gain" with lines
+
+cd "d:"
+set xlabel "Time Bucket"
+set ylabel "Reactions Gain"
+plot "Output_Exercise5_Telecom_Output.dat" title "Telecom Reaction Gain" with lines
+
+
+cd "d:"
+set xlabel "Time Bucket"
+set ylabel "Reactions Gain"
+plot "Output_Exercise5_Hospital_Output.dat" title "Hospital Reaction Gain" with lines
+
+cd "d:"
+set xlabel "Time Bucket"
+set ylabel "Number of Comments"
+plot "Output_Exercise6_ECommerce_Output.dat" title "Ecommerce Week Analysis" with lines
+
+cd "d:"
+set xlabel "Time Bucket"
+set ylabel "Number of Comments"
+plot "Output_Exercise6_Traffic_Output.dat" title "Traffic Week Analysis" with lines
+
+cd "d:"
+set xlabel "Time Bucket"
+set ylabel "Number of Comments"
+plot "Output_Exercise6_Hospitals_Output.dat" title "Hospitals Week Analysis" with lines
+
+cd "d:"
+set xlabel "Time Bucket"
+set ylabel "Number of Comments"
+plot "Output_Exercise6_Telecommunication_Output.dat" title "Telecommunication  Week Analysis" with lines
+
